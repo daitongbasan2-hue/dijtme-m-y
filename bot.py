@@ -241,8 +241,8 @@ functions = [
 ]
 
 print("B  U  I  - T  U  A  N -  M  A  N  H")            
-TOKEN = input("        Token bot: ").strip()
-ADMIN_IDS = input("        ID Admin: ").split(",")
+TOKEN = input("MTQ2OTg5NTQ4ODUwNDQ2MzQyMg.G7pOSd.SOK7ATHsDpZT_rIW2beNQ5ICwVdFGujHSfOqkc").strip()
+ADMIN_IDS = input("1406862431023796234").split(",")
 ADMIN_IDS = [aid.strip() for aid in ADMIN_IDS]
 
 INTENTS = discord.Intents.default()
@@ -7964,7 +7964,7 @@ class MenuView(View):
             description=(
                 "- 👋 Xin chào bạn nhé!, tớ là pro9 viết tắt của pro bot 9app\n"
                 "- cảm ơn bạn đã tin tưởng và sử dụng mình😆\n"
-                f"- 🤖 người tạo ra tớ là <@{admin_id}>"
+                f"- 🤖 người tạo ra tớ là <@{1406862431023796234}>"
             ),
             color=discord.Color.blue()
         )
@@ -7988,7 +7988,7 @@ class MenuView(View):
                 "⚙️ Version: 1.2.0\n"
                 "💻 Ngôn ngữ: Python + discord.py\n"
                 "📅 Ngày ra mắt: 31/8/2025\n"
-                f"- Cần hỗ trợ ib: <@{admin_id}>"
+                f"- Cần hỗ trợ ib: <@{1406862431023796234}>"
             ),
             color=discord.Color.green()
         )
@@ -8010,6 +8010,6 @@ async def menu(interaction: discord.Interaction):
     await interaction.response.send_message(embed=embed, view=MenuView())
 
 
-bot.run(TOKEN)
+bot.run(MTQ2OTg5NTQ4ODUwNDQ2MzQyMg.G7pOSd.SOK7ATHsDpZT_rIW2beNQ5ICwVdFGujHSfOqkc)
 
 COLORS = {'vang': ''}  # TODO: define actual colors
